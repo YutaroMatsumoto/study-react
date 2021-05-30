@@ -6,13 +6,6 @@ import { Main } from "../components/Main";
 import { Header } from "../components/Header";
 import { useCallback } from "react";
 
-// const a = 'aiueo'
-
-// const handleClick = (e) => {
-//   console.log(e.target)
-//   e.preventDefault();
-//   alert(a)
-// }
 export default function Home() {
   const a = "aiueo";
 
@@ -21,6 +14,7 @@ export default function Home() {
     e.preventDefault();
     alert(a);
   }, []);
+
   return (
     <div className={styles.container}>
       <Head>
